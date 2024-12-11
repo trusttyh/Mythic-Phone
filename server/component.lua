@@ -63,5 +63,5 @@ PHONE = {
 }
 
 AddEventHandler("Proxy:Shared:RegisterReady", function()
-	exports["eternal-base"]:RegisterComponent("Phone", PHONE)
+	exports["mythic-base"]:RegisterComponent("Phone", PHONE)
 end)
