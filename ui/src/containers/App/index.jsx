@@ -7,7 +7,7 @@ import {
 	StyledEngineProvider,
 } from '@material-ui/core';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/pro-solid-svg-icons'; // Correct import for Pro solid icons
+import { fas } from '@fortawesome/free-solid-svg-icons'; // Correct import for Pro solid icons
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { HashRouter as Router } from 'react-router-dom';
 

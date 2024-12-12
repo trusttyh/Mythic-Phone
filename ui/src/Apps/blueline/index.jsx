@@ -94,7 +94,7 @@ export default (props) => {
 			) : (
 				<>
 					<div className={classes.header}>
-						<FontAwesomeIcon icon={['fas', 'user']} />
+						<FontAwesomeIcon icon="fa-solid fa-handcuffs" />
 						Welcome Back <span className="name">{alias}</span>
 					</div>
 					<div className={classes.content}>

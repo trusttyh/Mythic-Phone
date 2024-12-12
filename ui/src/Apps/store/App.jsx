@@ -79,7 +79,7 @@ export default ({ app, installed }) => {
             alt={app.label}
             className={classes.appIcon}
           >
-            {app.icon ? null : <FontAwesomeIcon icon={app.icon} />}
+            {app.icon ? null : <FontAwesomeIcon icon="fa-brands fa-adn"  />}
           </Avatar>
           <div className={classes.appName}>{app.label}</div>
         </div>
