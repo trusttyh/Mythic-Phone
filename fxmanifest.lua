@@ -1,5 +1,5 @@
 name 'ARP Phone'
-description 'Phone Written For ARP'
+description 'Phone Written For MYTHIC FRAMEWORK'
 author '[Alzar]'
 version 'v1.0.0'
 url 'https://www.mythicrp.com'
