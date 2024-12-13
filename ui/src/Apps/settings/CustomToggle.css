@@ -1,0 +1,46 @@
+.checkbox {
+  display: none;
+}
+
+.switch {
+  width: 62px;
+  height: 32px;
+  background: #E5E5E5;
+  position: relative;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.switch:before {
+  content: ' ';
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 60px;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.switch:after {
+  content: ' ';
+  height: 29px;
+  width: 29px;
+  border-radius: 28px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition-duration: 300ms;
+  box-shadow: 0 2px 5px #999999;
+  z-index: 2;
+}
+
+.switchOn, .switchOn:before {
+  background: #4cd964 !important;
+}
+
+.switchOn:after {
+  left: 31px !important; 
+}
